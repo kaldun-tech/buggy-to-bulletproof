@@ -9,3 +9,5 @@ Unit tests form the critical base of our testing pyramid. Creating a great found
 Cover Edge Cases and Boundary Conditions: Ensure that your unit tests cover edge cases and boundary conditions. This refers to scenarios that are at the extreme ends of the expected behavior. For example, if a function has an integer parameter, test it with both the minimum and maximum valid values as well as with invalid values.
 **Test happy paths and error cases:** Build positive test cases for successful code paths and negative cases to handle unexpected or erroneous inputs. This helps ensure that your code behaves robustly and handles errors gracefully.
 **Keep security in mind:** Consider common attack vectors like SQL and Command Injection, Cross-Site Scripting (XSS), and deserialization. Getting unit tests around these adds fantastic quality assurance value to your testing process.
+
+&copy; Kaldun Technologies 2023

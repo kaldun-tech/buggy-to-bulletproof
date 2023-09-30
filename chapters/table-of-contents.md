@@ -32,3 +32,5 @@ Introduces fundamental DevOps concepts.
 
 # Call to Action
 Final thoughts and call to action.
+
+&copy; Kaldun Technologies 2023

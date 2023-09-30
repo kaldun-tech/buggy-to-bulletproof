@@ -42,3 +42,5 @@ This critical functionality must be clearly defined and tests must be implemente
 - Extract an area of functionality that is or will be commonly used into a **function, method, or class**. This helps encapsulate the functionality in a module that can be reused in the future and that the developers have better access control of than copypasta.
 
 How does one refactor code? The most basic way is to bust out the cut and paste feature in your favorite text editor, but most **interactive development environments (IDEs)** like Visual Studio and Eclipse have built in functionality specifically for this. AI tools like GitHub Copilot and AWS CodeWhisperer can also assist with this.
+
+&copy; Kaldun Technologies 2023

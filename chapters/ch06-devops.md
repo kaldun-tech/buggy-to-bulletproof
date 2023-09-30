@@ -53,3 +53,5 @@ What advantages does DAST provide for security testing?
 While DAST is a valuable tool for identifying vulnerabilities in web applications, it has some limitations. It may produce false positives or miss certain vulnerabilities, especially those that require specific user actions to trigger. Therefore, it is often recommended to complement DAST with other security testing methods like Static Application Security Testing (SAST) and manual penetration testing to ensure comprehensive coverage of an application's security posture.
 
 These are all measures a great DevOps team can help your development organization with. These practices help mature your software development practice and lead to software that is of high quality, secure, and reliable.
+
+&copy; Kaldun Technologies 2023

@@ -41,3 +41,5 @@ Lee's quirks and dedication became a cherished part of our office culture. He sh
 The problem our team faced was that Lee and the Bangalore test team had to consistently work long hours every other Wednesday and Thursday night to get our releases out on time. Much of the tedious work in QA can be automated by building software scripts. Scripting languages are code used to manipulate, customize and automate the facilities of an existing system
 
 Implementing test automation reduced the workload that our testing team needed to do. This of course means that the organization does not need to hire as many testers, so there is less job opportunity at the low-end of the software QA testing field. The benefit to the business however is lower costs. The benefit to the QA testers is they work fewer hours, are less stressed and less likely to burn out.
+
+&copy; Kaldun Technologies 2023

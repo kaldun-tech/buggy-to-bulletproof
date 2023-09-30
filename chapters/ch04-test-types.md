@@ -58,3 +58,5 @@ For **Java**, **JUnit** is a widely-used testing framework primarily for unit te
 For **C#**, also known as Microsoft’s version of Java, **NUnit** is a widely-used testing framework for C# that supports various test attributes and runners similar to JUnit. xUnit.net is a more modern and extensible C# testing framework. **Moq** is a mocking framework for creating mock objects in unit tests for C# similar to Mockito.
 
 For **Python**, **unittest** is the built-in testing framework for writing unit tests. **Pytest** is a popular testing framework for Python that offers advanced features and plugins. This was used in our organization to great effect!
+
+&copy; Kaldun Technologies 2023

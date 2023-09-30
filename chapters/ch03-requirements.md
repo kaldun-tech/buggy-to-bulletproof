@@ -21,3 +21,5 @@
 **Performance requirements** dictate how the software should perform under various conditions. Security mechanisms like encryption and authentication can introduce processing overhead. Performance requirements should ensure that security measures do not significantly degrade system performance, as slow responses might discourage users from using secure methods. Understanding _software profiling_ is an important skill in assessing performance requirements.
 
 **Availability and reliability** requirements ensure that the software is accessible and functions as expected. Security incidents can lead to system downtime or data breaches, impacting both availability and reliability. Your organization’s _operations_ and _support_ professionals are key stakeholders to discuss these requirements with.
+
+&copy; Kaldun Technologies 2023
