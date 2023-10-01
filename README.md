@@ -1,4 +1,6 @@
 # buggy-to-bulletproof
+### How to Build Better Software with Test-Driven Development
+## By Taras Smereka
 
 This e-book aims to presents my philosophy of test-driven development in an engaging format.
 
