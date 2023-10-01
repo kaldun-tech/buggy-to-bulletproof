@@ -1,4 +1,4 @@
-# buggy-to-bulletproof
+# From Buggy to Bulletproof
 ### How to Build Better Software with Test-Driven Development
 ## By Taras Smereka
 
