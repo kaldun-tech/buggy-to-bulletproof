@@ -1,4 +1,4 @@
-## Chapter 6: DevOps Concepts {#ch06-devop}
+## Chapter 6: DevOps Concepts <a id="ch06-devops"></a>
 
 ### Our New Frenemy: DevOps
 

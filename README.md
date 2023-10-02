@@ -8,4 +8,39 @@ To learn more and get one-on-one coaching on this subject, schedule some time on
 
 See my [Linktree](https://linktr.ee/kaldun_tech) for consolidated links to my website, social media, and GitHub accounts.
 
+# Table of Contents
+
+- [From Buggy To Bulletproof](chapters/title-page)
+- [Chapter 1: Why Testing Matters](chapters/ch01-why-testing-matters)
+- [Chapter 2: TDD Fundamentals](chapters/ch02-tdd-fundamentals)
+- [Chapter 3: Requirements](chapters/ch03-requirements)
+- [Chapter 4: Test Types](chapters/ch04-test-types)
+- [Chapter 5: Unit Testing](chapters/ch05-unit-tests)
+- [Chapter 6: DevOps Concepts](chapters/ch06-devops)
+- [Chapter 7: Call to Action](chapters/ch07-call-to-action)
+
+# Title Page
+From Buggy to Bulletproof
+
+# Chapter 1: Why Testing Matters
+Introduction to the benefits of software testing.
+
+# Chapter 2: Getting Started
+Presents the fundamentals of test-driven development.
+
+# Chapter 3: Requirements
+Details the different types of software requirements.
+
+# Chapter 4: Test Types
+Details the different types of software tests.
+
+# Chapter 5: Unit Testing
+Tips on how to write great unit tests.
+
+# Chapter 6: DevOps Concepts
+Quick explanation of fundamental DevOps concepts.
+
+# Chapter 7: Call to Action
+Final thoughts and call to action.
+
 &copy; Kaldun Technologies 2023

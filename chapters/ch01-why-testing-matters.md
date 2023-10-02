@@ -1,4 +1,4 @@
-## Chapter 1: Why Testing Matters {#ch01-why-testing-matters}
+## Chapter 1: Why Testing Matters <a id="ch01-why-testing-matters"></a>
 
 ### Software is Changing the World
 

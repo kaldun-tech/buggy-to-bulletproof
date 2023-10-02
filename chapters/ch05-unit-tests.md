@@ -1,4 +1,4 @@
-## Chapter 5: Unit Testing {#ch05-unit-tests}
+## Chapter 5: Unit Testing <a id="ch05-unit-tests"></a>
 
 ### Tips to Make Your Unit Tests Great
 Unit tests form the critical base of our testing pyramid. Creating a great foundation requires writing a lot of great unit tests! Here are some helpful tips to get you going:

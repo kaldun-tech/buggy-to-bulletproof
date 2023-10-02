@@ -1,4 +1,4 @@
-## Chapter 4: Test Types {#ch04-test-types}
+## Chapter 4: Test Types <a id="ch04-test-types"></a>
 
 ### What's with the Boxes?
 
