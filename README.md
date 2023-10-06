@@ -2,7 +2,13 @@
 ## How to Build Better Software with Test-Driven Development
 ## By Taras Smereka
 
-This e-book presents my philosophy of test-driven software development in an engaging format.
+### Software is Changing the World
+
+Computer software is a continuing revolution transforming every industry. This runs the spectrum from the apps on wearable devices and smartphones to systems powering major industries. The processes we use to create, test, and deliver software need to evolve to stay competitive.
+
+A simple change to a line of code can have massive implications, good or ill. A cliche well known by Spider-Man fans is “With great power comes great responsibility.” Software quality and security become increasingly important as software eats our world.
+
+This book aims to cut through the buzzwords and present you with the techniques your team needs to rise to this challenge as a software developer, quality assurance expert, or manager.
 
 To learn more and get one-on-one coaching on this subject, schedule some time on my [Calendly](https://calendly.com/kaldun/meeting).
 
