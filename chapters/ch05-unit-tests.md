@@ -19,18 +19,21 @@ Unit tests form the critical base of our testing pyramid. Creating a great found
 
 Here is a simple example of using unit tests in Python using the built-in unittest framework. We will revisit the calculator concept from chapter two, in this case focusing on the division function since that is a great example of where things can go wrong. Here is the method under test:
 
-`#math_functions.py
+`
+#math_functions.py
 
 def divide_numbers(a, b):
     if b == 0:
         raise ValueError("Division by zero is not allowed")
-    return a / b`
+    return a / b
+`
 
 Now let's implement some unit tests.
 1. Add a positive test case for the "happy path" that we expect to not throw an error.
 2. Add a negative test case for the expected error with divide by zero.
 
-`# test_math_functions.py
+`
+# test_math_functions.py
 
 import unittest
 from math_functions import add_numbers, divide_numbers
@@ -53,7 +56,8 @@ class TestMathFunctions(unittest.TestCase):
             divide_numbers(5, 0)
 
 if __name__ == '__main__':
-    unittest.main()`
+    unittest.main()
+`
 
 What other unit tests would be valuable to add? The divide_numbers method does not enforce typing of the input variables. What happens if an input is None? How about if another variable type is passed in such as a str or list? What if decimals are passed in or the result of division would be fractional? This just scratches the surface of how to implement effective unit tests!
 

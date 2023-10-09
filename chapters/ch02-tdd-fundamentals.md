@@ -77,7 +77,8 @@ Now we will apply some basic refactoring. Here's some basics to get started:
 
 This refactoring improves code organization, readability, and maintainability by breaking down the code into smaller, more focused methods and using a switch statement to handle different cases.
 
-`public class CalculatorRefactored {
+`
+public class CalculatorRefactored {
     public static void main(String[] args) {
         int num1 = 10, num2 = 5;
         String operation = "add";
@@ -128,7 +129,8 @@ This refactoring improves code organization, readability, and maintainability by
         }
         return num1 / num2;
     }
-}`
+}
+`
 
 Another refactoring that jumps out to me is to extract the operation to an enum instead of using hardcoded strings. What else can you think of that enhances the code quality while keeping functionality the same?
 
