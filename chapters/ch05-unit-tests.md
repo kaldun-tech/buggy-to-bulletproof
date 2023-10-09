@@ -20,8 +20,10 @@ Unit tests form the critical base of our testing pyramid. Creating a great found
 Here is a simple example of using unit tests in Python using the built-in unittest framework. We will revisit the calculator concept from chapter two, in this case focusing on the division function since that is a great example of where things can go wrong. Here is the method under test:
 
 #### math_functions.py
+
 `
 def divide_numbers(a, b):
+    """Divides inputs as integers"""
     if b == 0:
         raise ValueError("Division by zero is not allowed")
     return a / b
@@ -32,9 +34,10 @@ Now let's implement some unit tests.
 2. Add a negative test case for the expected error with divide by zero.
 
 #### test_math_functions.py
+
 `
 import unittest
-from math_functions import add_numbers, divide_numbers
+from math_functions import divide_numbers
 
 class TestMathFunctions(unittest.TestCase):
 
