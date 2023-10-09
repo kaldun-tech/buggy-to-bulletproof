@@ -43,4 +43,93 @@ This critical functionality must be clearly defined and tests must be implemente
 
 How does one refactor code? The most basic way is to bust out the cut and paste feature in your favorite text editor, but most **interactive development environments (IDEs)** like Visual Studio and Eclipse have built in functionality specifically for this. AI tools like GitHub Copilot and AWS CodeWhisperer can also assist with this.
 
+#### Java Example
+
+This simple Java calculator program a prime example of spaghetti code! All of the logic is in the main method. Data constants and variables are hardcoded which allows no flexibility in how the program is used.
+
+`public class Calculator {
+    public static void main(String[] args) {
+        int num1 = 10, num2 = 5;
+        String operation = "add";
+
+        if (operation.equals("add")) {
+            int result = num1 + num2;
+            System.out.println("The sum is: " + result);
+        } else if (operation.equals("subtract")) {
+            int result = num1 - num2;
+            System.out.println("The difference is: " + result);
+        } else if (operation.equals("multiply")) {
+            int result = num1 * num2;
+            System.out.println("The product is: " + result);
+        } else if (operation.equals("divide")) {
+            int result = num1 / num2;
+            System.out.println("The quotient is: " + result);
+        } else {
+            System.out.println("Invalid operation");
+        }
+    }
+}`
+
+Now we will apply some basic refactoring. Here's some basics to get started:
+1. Create separate methods (add, subtract, multiply, and divide) to encapsulate the logic for each operation.
+2. Use a switch statement to determine which operation to perform based on the value of the operation variable.
+3. Extract the calculateAndPrintResult method, which is responsible for calling the appropriate operation method and printing the result.
+
+This refactoring improves code organization, readability, and maintainability by breaking down the code into smaller, more focused methods and using a switch statement to handle different cases.
+
+`public class CalculatorRefactored {
+    public static void main(String[] args) {
+        int num1 = 10, num2 = 5;
+        String operation = "add";
+
+        calculateAndPrintResult(num1, num2, operation);
+    }
+
+    private static void calculateAndPrintResult(int num1, int num2, String operation) {
+        int result;
+
+        switch (operation) {
+            case "add":
+                result = add(num1, num2);
+                break;
+            case "subtract":
+                result = subtract(num1, num2);
+                break;
+            case "multiply":
+                result = multiply(num1, num2);
+                break;
+            case "divide":
+                result = divide(num1, num2);
+                break;
+            default:
+                System.out.println("Invalid operation");
+                return;
+        }
+
+        System.out.println("The result is: " + result);
+    }
+
+    private static int add(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    private static int subtract(int num1, int num2) {
+        return num1 - num2;
+    }
+
+    private static int multiply(int num1, int num2) {
+        return num1 * num2;
+    }
+
+    private static int divide(int num1, int num2) {
+        if (num2 == 0) {
+            System.out.println("Division by zero is not allowed");
+            return 0;
+        }
+        return num1 / num2;
+    }
+}`
+
+Another refactoring that jumps out to me is to extract the operation to an enum instead of using hardcoded strings. What else can you think of that enhances the code quality while keeping functionality the same?
+
 &copy; Kaldun Technologies 2023

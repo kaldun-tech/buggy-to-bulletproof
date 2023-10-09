@@ -15,4 +15,46 @@ Unit tests form the critical base of our testing pyramid. Creating a great found
 
 **Keep security in mind:** Consider common attack vectors like SQL and Command Injection, Cross-Site Scripting (XSS), and deserialization. Getting unit tests around these adds fantastic quality assurance value to your testing process.
 
+#### Python Example
+
+Here is a simple example of using unit tests in Python using the built-in unittest framework. We will revisit the calculator concept from chapter two, in this case focusing on the division function since that is a great example of where things can go wrong. Here is the method under test:
+
+`#math_functions.py
+
+def divide_numbers(a, b):
+    if b == 0:
+        raise ValueError("Division by zero is not allowed")
+    return a / b`
+
+Now let's implement some unit tests.
+1. Add a positive test case for the "happy path" that we expect to not throw an error.
+2. Add a negative test case for the expected error with divide by zero.
+
+`# test_math_functions.py
+
+import unittest
+from math_functions import add_numbers, divide_numbers
+
+class TestMathFunctions(unittest.TestCase):
+
+    def test_divide_numbers_normal:
+        """Test normal integer division"""
+        # Simple division
+        result = divide_numbers(6, 2)
+        self.assertEqual(result, 3)
+
+        # Divide positive by negative
+        result = divide_numbers(4, -2)
+        self.assertEqual(result, -2)
+
+    def test_divide_by_zero:
+        """Check that division by zero raises a ValueError"""
+        with self.assertRaises(ValueError):
+            divide_numbers(5, 0)
+
+if __name__ == '__main__':
+    unittest.main()`
+
+What other unit tests would be valuable to add? The divide_numbers method does not enforce typing of the input variables. What happens if an input is None? How about if another variable type is passed in such as a str or list? What if decimals are passed in or the result of division would be fractional? This just scratches the surface of how to implement effective unit tests!
+
 &copy; Kaldun Technologies 2023
