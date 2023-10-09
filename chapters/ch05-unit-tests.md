@@ -60,6 +60,9 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-What other unit tests would be valuable to add? The divide_numbers method does not enforce typing of the input variables. What happens if an input is None? How about if another variable type is passed in such as a str or list? What if decimals are passed in or the result of division would be fractional? This just scratches the surface of how to implement effective unit tests!
+This just scratches the surface of possible tests. Here's some more ideas:
+- The divide_numbers method does not enforce typing of the input variables. Test for None input and different input types such as a str or list.
+- Test case for if decimals are passed in.
+- Test case for if the result of division would be fractional.
 
 &copy; Kaldun Technologies 2023
