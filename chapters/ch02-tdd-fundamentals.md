@@ -1,5 +1,6 @@
 ## Chapter 2: TDD Fundamentals <a id="ch02-tdd-fundamentals"></a>
 <link rel="stylesheet" type-"text/css" href="styles.css">
+
 ### TDD and BDD - What's the Difference
 
 **Test-Driven Development (TDD)** and **Behavior-Driven Development (BDD)** are two software development methodologies that focus on writing tests before or alongside writing code. The aim is to improve code quality, maintainability, and to ensure that the software meets its requirements. There are a couple key differences.

@@ -2,7 +2,7 @@
 
 ### What's with the Boxes?
 
-![Gray-Box Testing](/images/red-green-refactor.jpg "Gray-Box Testing")
+![Gray-Box Testing](/images/gray-box-testing.jpg "Gray-Box Testing")
 
 **White-box**, **clear-box**, and **black-box** testing are different approaches to testing software, each with its own focus and objectives. These testing methodologies help ensure the quality and reliability of software by identifying defects, vulnerabilities, and issues before the software is released.
 
