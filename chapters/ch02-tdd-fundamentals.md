@@ -45,7 +45,9 @@ How does one refactor code? The most basic way is to bust out the cut and paste 
 
 #### Java Example
 
-This simple Java calculator program a prime example of spaghetti code! All of the logic is in the main method. Data constants and variables are hardcoded which allows no flexibility in how the program is used.
+![Spaghetti Code](/images/spaghetti-code.jpg "Spaghetti Code")
+
+This simple Java calculator program is a prime example of spaghetti code! All of the logic is in the main method. Data constants and variables are hardcoded which allows no flexibility in how the program is used.
 
 ```
 public class Calculator {

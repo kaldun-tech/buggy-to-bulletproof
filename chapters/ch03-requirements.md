@@ -1,7 +1,10 @@
 ## Chapter 3: Requirements <a id="ch03-requirements"></a>
 
 ### Understand Your Requirements
-**Software requirements** describe the features, functionalities, constraints, and qualities that a software system should possess. These different types of requirements help define the scope of the project and guide development. Security and privacy are critical aspects of software development, and various types of requirements can directly affect them. Notice that requirements often use the word _shall_, indicating that the software must consistently support the enumerated feature. These are some of the most important types of requirements:
+
+![Software Testing Life Cycle](/images/Software_Testing_Life_Cycle.jpg "Software Testing Life Cycle")
+
+Defining **software requirements** is the first step of the testing life cycle. These requirements describe the features, functionalities, constraints, and qualities that a software system should possess. These different types of requirements help define the scope of the project and guide development. Security and privacy are critical aspects of software development, and various types of requirements can directly affect them. Notice that requirements often use the word _shall_, indicating that the software must consistently support the enumerated feature. These are some of the most important types of requirements:
 
 **Functional requirements** define the specific features, capabilities, and interactions that the software should have. These requirements can directly impact security and privacy by specifying how data is processed, stored, and transmitted. For example, if the software handles user authentication, a functional requirement might read that passwords shall be stored securely using encryption and hashing techniques to protect user data.
 

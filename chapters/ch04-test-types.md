@@ -31,7 +31,7 @@ Mummies in the museum are intriguing yet incredibly gross. We need to keep the m
 
 ![The Test Pyramid](/images/test-pyramid.jpg "Testing Pyramid")
 
-The idea behind the testing pyramid is to emphasize a strong foundation of unit tests, followed by a moderate number of integration tests, and a smaller number of end-to-end tests. By adhering to the testing pyramid principles, development teams can build a comprehensive testing strategy that strikes a balance between coverage, speed, and reliability. This distribution helps achieve several benefits:
+The idea behind the testing pyramid is to emphasize a strong foundation of unit tests, followed by a moderate number of integration tests, and a smaller number of end-to-end tests. By adhering to the testing pyramid principles, software development and QA teams can build a comprehensive testing strategy that strikes a balance between coverage, speed, and reliability. This distribution helps achieve several benefits:
 - **Faster Feedback:** Unit tests execute quickly and provide immediate feedback to developers. This allows them to catch and fix issues early in the development cycle.
 - **Isolate Issues:** Unit tests isolate defects to specific components, making it easier to identify and fix problems.
 - **Reduce Maintenance Costs:** Lower-level tests are generally more stable and easier to maintain than high-level end-to-end tests.
@@ -45,11 +45,11 @@ The _middle_ layer of the pyramid consists of **integration tests**. These tests
 
 At the _top_ of the pyramid are **end-to-end (E2E) tests**, also known as **UI tests**. These tests simulate real user scenarios and cover the entire application stack, including the user interface, multiple components, databases, and external integrations. E2E tests provide confidence that the application functions as expected in a real-world environment. However, they tend to be slower, more complex to maintain, and may have higher execution times compared to lower-level tests. These tests are most pertinent to BDD and the UI/UX team.
 
-### Useful Testing Tools
+### Useful Unit Testing Tools
 
 There are a massive variety of testing tools you can use to accomplish this. It’s easy to get lost in the deluge of information out there so here is a brief summary of some tools I see as quite useful.
 
-For **C** and **C++** testing, **Google Test** and **Catch2** are quite popular. The Google Test framework requires the most up-to-date version of C++ whereas Catch2 is more backwards compatible but does not have as many features.
+For **C** and **C++** unit tests, **Google Test** and **Catch2** are quite popular. The Google Test framework requires the most up-to-date version of C++ whereas Catch2 is more backwards compatible but does not have as many features.
 
 For **Java**, **JUnit** is a widely-used testing framework primarily for unit testing. **TestNG** supports both unit and integration testing. **Mockito** is a promising mocking framework that facilitates creating mock objects in unit tests. **Mocking** allows one to make a simple imitation of an object your code is dependent on to execute your tests.
 

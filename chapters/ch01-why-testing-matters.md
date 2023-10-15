@@ -10,6 +10,8 @@ This book aims to cut through the buzzwords and present you with the techniques 
 
 ### Buggy Software Leads Companies to Financial Ruin
 
+![Computer Bug](/images/computer-bug-640.jpg "Computer Bug")
+
 One of my previous employers was a manufacturing company in Wisconsin. Our development team built applications to support our transportation and distribution division.
 
 The team’s development processes were archaic: only manual testing was conducted and there were no procedures for code reviews, automated testing, or static code analysis. Of course the team released low-quality software.
@@ -17,6 +19,8 @@ The team’s development processes were archaic: only manual testing was conduct
 When the company faced poor financial performance they could no longer afford to make payroll. Where did they have to make cuts? The development department: all the junior staff were cut from our team. Embrace the challenge of continuous improvement to keep your staff productive and well-paid!
 
 ### Why Testing Matters
+
+![Software QA Testing](/images/software-qa.jpg "Software QA Testing")
 
 Many software teams struggle against the crushing pressure of software defects coming in day after day. The tedium of triaging and debugging incoming issues drains developer productivity. Instead of coding new features or building skills, the developers need to read through client reports, gather information from the support team, and wade through the mud of legacy code.
 
@@ -26,7 +30,7 @@ Releasing defective software for the sake of meeting deadlines creates technical
 
 Yet when defective software is released consistently this debt snowballs into a crushing burden. You can prevent this by shifting left to get ahead of such issues. This book will describe the key techniques software teams can use to accomplish this, including test and behavior driven development, automated testing, and software composition analysis.
 
-Software testing is often thought of as a quality assurance (QA) role. Unfortunately QA is often treated as a “lesser” role than software development both in terms of status and pay. Do not make this mistake! Having great testing and QA gives your organization confidence that both regulatory and customer requirements are being met. Automating your QA and testing process presents an intriguing challenge to unleash the creativity of a dedicated software developer.
+Software testing is often thought of as a **quality assurance (QA)** role. Unfortunately QA is often treated as a lesser role than software development both in terms of status and pay. Do not make this mistake! Having great testing and QA gives your organization confidence that both regulatory and customer requirements are being met. Automating your QA and testing process presents an intriguing challenge to unleash your staff's creativity.
 
 ### Embrace Automation
 
