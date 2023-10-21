@@ -27,6 +27,8 @@ Code reviews provide an opportunity for team members to _share insights_, expert
 
 ![Alphabet Soup](/images/alphabet-soup-help.jpg "Alphabet Soup")
 
+**DevSecOps** extends the DevOps philosophy by adding security into the mix, making security an integral part of the software development and delivery pipeline. It emphasizes "shift-left" security practices, meaning that security is integrated early in the development process, rather than being a last-minute concern. DevSecOps aims to identify and mitigate security vulnerabilities and threats at the earliest stages of development and throughout the software's lifecycle. This involves _automated security testing, code analysis, and security monitoring_. These are some of the key techniques to accomplishing DevSecOps objectives.
+
 **Static Code Analysis (SCA)** and **Static Analysis Software Testing (SAST)** involve analyzing the source code without actually executing it. The analysis checks for coding violations, potential bugs, and adherence to coding standards. Here's how it helps improve code:
 - SCA tools _identify_ common programming _errors_ like null pointer dereferences, buffer overflows, and logical inconsistencies. Finding these issues early helps prevent bugs and crashes in the production environment.
 - SCA tools _enforce_ coding _standards_, ensuring that code is consistent and follows best practices. This improves _readability_ and _maintainability_.
