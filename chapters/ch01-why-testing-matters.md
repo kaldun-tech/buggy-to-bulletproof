@@ -6,7 +6,7 @@ Computer software is a continuing revolution transforming every industry. This r
 
 A simple change to a line of code can have massive implications, good or ill. A cliche well known by Spider-Man fans is “With great power comes great responsibility.” Software quality and security become increasingly important as software eats our world.
 
-This book aims to cut through the buzzwords and present you with the techniques your team needs to rise to this challenge as a software developer, quality assurance expert, or manager.
+This book aims to cut through the buzzwords and present you with the techniques your team needs to rise to this challenge as a software developer, operations, quality assurance expert, or manager.
 
 ### Buggy Software Leads Companies to Financial Ruin
 

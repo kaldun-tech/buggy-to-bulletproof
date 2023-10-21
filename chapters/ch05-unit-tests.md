@@ -65,4 +65,6 @@ This just scratches the surface of possible tests. Here's some more ideas:
 - Test case for if decimals are passed in.
 - Test case for if the result of division would be fractional.
 
+Recall that unit tests make up the base of the testing pyramid. These are the highest quantity of tests that should be run to provide basic checks that your software works as intended. Happy coding!
+
 &copy; Kaldun Technologies 2023
