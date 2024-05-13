@@ -46,4 +46,4 @@ The problem our team faced was that Lee and the Bangalore test team had to consi
 
 Implementing test automation reduced the workload that our testing team needed to do. The dark side of automation is that the organizations will hire fewer testers, so there is less job opportunity at the low-end of the software QA testing field. The benefit to the business is lower costs. The benefit to the QA testers is they work fewer hours, are less stressed and less likely to burn out.
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

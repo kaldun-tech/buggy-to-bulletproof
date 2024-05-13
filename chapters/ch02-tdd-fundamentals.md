@@ -139,4 +139,4 @@ public class CalculatorRefactored {
 
 Another refactoring that jumps out to me is to extract the operation to an enum instead of using hardcoded strings. What else can you think of that enhances the code quality while keeping functionality the same?
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

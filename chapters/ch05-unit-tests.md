@@ -67,4 +67,4 @@ This just scratches the surface of possible tests. Here's some more ideas:
 
 Recall that unit tests make up the base of the testing pyramid. These are the highest quantity of tests that should be run to provide basic checks that your software works as intended. Happy coding!
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

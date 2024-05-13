@@ -59,4 +59,4 @@ For **C#**, also known as Microsoft’s version of Java, **NUnit** is a widely-u
 
 For **Python**, **unittest** is the built-in testing framework for writing unit tests. **Pytest** is a popular testing framework for Python that offers advanced features and plugins. This was used in our organization to great effect!
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

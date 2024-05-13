@@ -56,4 +56,4 @@ While DAST is a valuable tool for identifying vulnerabilities in web application
 
 These are all measures a great DevOps team can help your development organization with. These practices help mature your software development practice and lead to software that is of high quality, secure, and reliable.
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

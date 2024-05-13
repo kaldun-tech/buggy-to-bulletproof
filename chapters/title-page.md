@@ -4,4 +4,4 @@
 
 ![Bulletproof Buggy](/images/bulletproof-buggy.jpg "Bulletproof Buggy")
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

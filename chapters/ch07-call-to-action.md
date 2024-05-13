@@ -10,4 +10,4 @@ To learn more and get one-on-one coaching on this subject, schedule some time on
 
 See [Linktree](https://linktr.ee/kaldun_tech) for consolidated links to my website, social media, and GitHub accounts.
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023

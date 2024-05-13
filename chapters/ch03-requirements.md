@@ -27,4 +27,4 @@ Defining **requirements** is the first step of the **software testing life cycle
 
 Defining your software requirements is a key first step in the testing life cycle. This provides your team with the base to move to test planning and design. The reality is that these requirements will change as your organization's and customers' needs change, and will need to be dynamic and evolve over time.
 
-&copy; Kaldun Technologies 2023
+&copy; Kaldun Technologies LLC 2023
