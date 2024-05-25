@@ -16,7 +16,7 @@ See my [Linktree](https://linktr.ee/kaldun_tech) for consolidated links to my we
 
 # Table of Contents
 
-- [From Buggy To Bulletproof](chapters/title-page.md)
+- [From Buggy To Bulletproof](chapters/ch00-title-page.md)
 - [Chapter 1: Why Testing Matters](chapters/ch01-why-testing-matters.md)
 - [Chapter 2: TDD Fundamentals](chapters/ch02-tdd-fundamentals.md)
 - [Chapter 3: Requirements](chapters/ch03-requirements.md)
