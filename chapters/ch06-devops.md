@@ -25,7 +25,7 @@ Code reviews provide an opportunity for team members to _share insights_, expert
 
 ### Decoding the Alphabet Soup: SCA, SAST, DAST
 
-![Alphabet Soup](/images/alphabet-soup-help.jpg "Alphabet Soup")
+![Alphabet Soup](/images/alphabet-soup.jpg "Alphabet Soup")
 
 **DevSecOps** extends the DevOps philosophy by adding security into the mix, making security an integral part of the software development and delivery pipeline. It emphasizes "shift-left" security practices, meaning that security is integrated early in the development process, rather than being a last-minute concern. DevSecOps aims to identify and mitigate security vulnerabilities and threats at the earliest stages of development and throughout the software's lifecycle. This involves _automated security testing, code analysis, and security monitoring_. These are some of the key techniques to accomplishing DevSecOps objectives.
 
